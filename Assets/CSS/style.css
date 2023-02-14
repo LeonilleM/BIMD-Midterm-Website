@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: rgb(20, 20, 20);
+}
+
+span{
+    color:rgba(87, 71, 22, 0.767)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: x-large;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+    color: rgb(20, 20, 20);
+}
+
+.navigation a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(38, 56, 38);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.navigation a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+nav a:hover{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+
+hr {
+    height: 2px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgba(142, 117, 49, 0.3)));
+    border: none;
+}
+
+.bg-img {
+    background-image: url(../Photos/background.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vision {
+    margin-top: 15vh;
+    height: 25em;
+}
+
+table{
+    width: 100%;
+    font-size:large;
+}
+

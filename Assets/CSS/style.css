@@ -79,6 +79,7 @@ hr {
 }
 
 .vision {
+    padding: 5px;
     margin-top: 15vh;
     height: 25em;
 }
@@ -86,6 +87,10 @@ hr {
 table{
     width: 100%;
     font-size:large;
+}
+
+td:nth-child(2){
+    font-style: italic;
 }
 
 

@@ -4,16 +4,14 @@ HTML and CSS. The website was an inspired Restaraunt, that included two pages wh
 and the other page containting job opportunities within the restaurant
 
 ## Technology Used
--HTML
--CSS
--Boostrap v5
-
+- HTML
+- CSS
+- Boostrap v5
 
 ## Features
--Main page with multiple sections
--Clickable links for each section
--Second page for application page
-
+- Main page with multiple sections
+- Clickable links for each section
+- Second page for application page
 
 ## Live Demo
-Check my Miterm [here](https://students.washington.edu/leonille/midterm/#about)
+Check my Midterm [here](https://students.washington.edu/leonille/midterm/#about)
